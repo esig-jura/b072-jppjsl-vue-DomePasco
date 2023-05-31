@@ -1,9 +1,13 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterView } from 'vue-router'
+import EnteteDePage from "@/components/EnteteDePage.vue";
+import PiedDePage from "@/components/PiedDePage.vue";
 </script>
 
 <template>
+  <entete-de-page />
   <RouterView />
+  <pied-de-page />
 </template>
 
 <style scoped>
