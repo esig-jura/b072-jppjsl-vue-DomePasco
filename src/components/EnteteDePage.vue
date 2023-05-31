@@ -14,7 +14,7 @@
     <nav>
     <ul>
       <li>
-        <router-link to="/sabre" exact-active-class="actif">Sabre Laser</router-link>
+        <router-link to="/sabre" exact-active-class="actif">Nos sabres</router-link>
       </li>
       <li>
         <router-link to="/service-client" exact-active-class="actif">Service client</router-link>
